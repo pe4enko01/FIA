@@ -52,7 +52,7 @@ body{
 }
 #main_ul{
     position: absolute;
-    top: 143px;
+    top: 158px;
     left: -16px;
     text-decoration: none;
     display: inline-block;
@@ -221,7 +221,7 @@ font-size: 64px;
 .cont_li{
      margin-bottom:16px;
      margin-right:60px;
-     color:rebeccapurple;
+     color:#ec6334;
  }
 .cont_li span{
     color:black;
@@ -230,6 +230,10 @@ font-size: 64px;
     margin-left:-13px;
 
 }
+.pos_li{
+    margin-left:26px;
+}
+
 .color_wind{
     font-size: 20px;
 }
@@ -238,6 +242,7 @@ font-size: 64px;
 
 }
 .var_50{
+    margin-top:25px;
     font-size: 14px;
 }
 .cont_tab{
@@ -292,6 +297,7 @@ font-size: 64px;
     font-size:18px;
     margin-left:26px;
     cursor:pointer;
+    margin-top:30px;
 }
 .popup_over{
     display: none;
@@ -535,4 +541,20 @@ font-size: 64px;
     position: relative;
     top:-30px;
     right:-195px;
+}
+.color_pic_1{
+     background-image: url(../img/Group1.png);
+     width:474px;
+     height:59px;
+     position: relative;
+     right:0px;
+ }
+.color_pic_2{
+    display: none;
+    background-image: url(../img/w128h1281338911632checkmark2.png);
+    width:45px;
+    height:41px;
+    position: relative;
+    left:78px;
+    top:10px;
 }
